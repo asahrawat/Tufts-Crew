@@ -22,6 +22,7 @@ What data will your prototype be using and collecting
 	-Information from coaches about what information will be needed
 
 
-Any algorithms or special techniques that will be necessary:
+Any algorithms or special techniques that will be necessary
+
 	-We’ll be using a number of simple formulas as part of a coach’s tool suite which will help them make calculations such as testing fitness levels, using lactate measurements, randomizing boats, and any other tool the coaches think would be helpful when we talk to them later this week. 
 	-We’ll also be using apis from instagram, googlesheets, and possibly googlemaps. 
