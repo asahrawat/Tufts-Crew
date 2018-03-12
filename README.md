@@ -26,3 +26,8 @@ Any algorithms or special techniques that will be necessary
 
 	-We’ll be using a number of simple formulas as part of a coach’s tool suite which will help them make calculations such as testing fitness levels, using lactate measurements, randomizing boats, and any other tool the coaches think would be helpful when we talk to them later this week. 
 	-We’ll also be using apis from instagram, googlesheets, and possibly googlemaps. 
+
+## Comments By Ming
+* Good problem to solve
+* Missing: *what* data will you be collecting, the information from coaches?
+* You could have embedded wireframes in this README document
