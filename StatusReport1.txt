@@ -1,0 +1,25 @@
+ (1) what was accomplished during the week,
+ (2) challenges and issues team faced during the week
+ (3) your goals for the next week.
+
+
+Status Check-up #1:
+
+
+
+
+
+David Knopov Update #1:
+
+(1) This week I worked on setting up the google calendar API for Practice Schedules.
+I managed to get a blank calendar on to the Practice_Schedule.html.
+
+
+(2)
+One issue I faced is figuring out how to obtain this google calendar and how to present it
+in the best way possible. Another one was a way to organize our website so that it would be
+user-friendly
+
+(3) My goal for next week is to add events and create the Race_Schedule google calendar as well.
+	An Ambitious goal would be to find a way to attach a google spreadsheet that will log all
+	the athletes workouts for each practice.
