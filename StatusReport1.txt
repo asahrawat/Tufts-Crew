@@ -23,3 +23,18 @@ user-friendly
 (3) My goal for next week is to add events and create the Race_Schedule google calendar as well.
 	An Ambitious goal would be to find a way to attach a google spreadsheet that will log all
 	the athletes workouts for each practice.
+
+Chadd Yuan Update #1:
+
+(1) This week I worked on implementing the twitter API and setting up the 
+team_feed page. I currently have succesfuly implemented a Tufts Crew twitter
+feed that displays the latest posts.
+
+(2) Luckily, I did not face too many issues as the twitter API was well docuemnted. I did
+try and implement a instagram API, but struggled as the instragram API had a lot of 
+restrictions and thus had to switch to twitter.
+
+(3) My goals for next week is to have the news feed page finished by implementing the 
+public news functionality and an anouncements section that somehow (not decided yet) 
+allows certain or all team members to post in a input box some announcement to be
+shared with everyone else. 
