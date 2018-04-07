@@ -5,7 +5,13 @@
 
 Status Check-up #1:
 
+Ryan Magnuson Update #1:
 
+1. This week I worked on updating the navbar to include drop down menus. Originally we were going to use bootstrap, but later decided that it lacked the amount of desired customization. 
+
+2. One challange I've faced this week is makignthe sticky nav bar smooth at the end of a scroll, still working on it but I'm almost done.
+
+3. For next week I would like to have the nav bar completely done, and get to work on filling out the tool bar and working on the back end for storing the roster and the blog. 
 
 
 
