@@ -15,6 +15,20 @@ Ryan Magnuson Update #1:
 
 
 
+Amun Sahrawat Update #1:
+
+1. This week I worked on setting up the foundation for the About Us page with sample text and appropriate images. I created a style sheet
+specifically for the page which will be used to modify the Google maps module on the page.
+
+2. One challenge I face this week was incoroporating the Google maps API in the way that I wanted to. I wanted to incorporate some sort
+of form for the client to input a location and we could calculate the distance from the boathouse to the input location but I struggled
+coming up with an adequate design.
+
+3. For next week I will completely finish the Google Maps portion of the page and make significant progresson the Roster or Lactate pages.
+
+
+
+
 David Knopov Update #1:
 
 (1) This week I worked on setting up the google calendar API for Practice Schedules.
