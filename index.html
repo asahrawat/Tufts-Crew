@@ -10,22 +10,56 @@
   </head>
   
   <body>
-    <div class="topnav">
+    <div class="topnav" id="navbar">
       <!-- I feel like news should be the homepage -->
       <a href="index.html">News</a>
-      <!-- Info Tab -->
-      <a href="Race_Schedule.html">Race Schedule</a>
-      <a href="Course.html">Course</a>
-      <a href="Roster.html">Roster</a>
-      <!-- Tools Tab-->
-      <a href="Team_Feed.html">Team Feed</a>
-      <a href="Practice_Schedule.html">Practice Schedule</a>
-      <!-- Tools Tab-->
-      <a href="Lactate.html">Lactate</a>
-      <a href="Randomizer.html">Randomizer</a>
 
+      <!-- Info Tab -->
+      <div class="dropdown">
+        <button class="dropbtn">Info 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Race_Schedule.html">Race Schedule</a>
+          <a href="Course.html">Course</a>
+          <a href="Roster.html">Roster</a>
+        </div>
+      </div> 
       
+      <!-- Team Tab-->
+      <div class="dropdown">
+        <button class="dropbtn">Team 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Team_Feed.html">Team Feed</a>
+          <a href="Practice_Schedule.html">Practice Schedule</a>
+        </div>
+      </div> 
+      
+      <!-- Tools Tab-->
+      <div class="dropdown">
+        <button class="dropbtn">Tools 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Lactate.html">Lactate</a>
+          <a href="Randomizer.html">Randomizer</a>
+        </div>
+      </div> 
     </div>
+
+
+    <div class="twitter">
+      <h1>Twitter</h1>
+
+
+    <a class="twitter-timeline" data-height="1000" data-theme="light" href="https://twitter.com/TuftsRowing?ref_src=twsrc%5Etfw">Tweets by TuftsRowing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </div>
+
+      <script src="scroll.js"></script>
+
 
   </body>
 </html>
