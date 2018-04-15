@@ -58,3 +58,7 @@ restrictions and thus had to switch to twitter.
 public news functionality and an anouncements section that somehow (not decided yet) 
 allows certain or all team members to post in a input box some announcement to be
 shared with everyone else. 
+
+# Comments by Ming
+* In the future, you can have just one short status report for everyone.
+* " but struggled as the instragram API had a lot of restrictions " = did you see my post on the IG API changes on Piazza?  All is not well for FB.
