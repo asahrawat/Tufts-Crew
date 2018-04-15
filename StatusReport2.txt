@@ -5,12 +5,13 @@
 
 
 
-David Knopov, Chadd Yuan Update #1:
+David Knopov, Chadd Yuan Update, Ryan #2:
 
 (1) This week I worked on setting up the google calendar API for Practice Schedules.
 I added all the practices, and races from the tufts team crew schedule. I also added a 
 spreadsheet for players to log in their workouts. I, Chadd, worked on the preliminary
-steps of implementing the announcemets section for the team feed page. 
+steps of implementing the announcemets section for the team feed page. And Ryan implemented bootstrap
+and worked on a Heroku server to retrieve roster information so we dont have to store it on the website.
 
 
 (2)
