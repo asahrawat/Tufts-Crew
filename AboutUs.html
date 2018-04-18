@@ -5,10 +5,13 @@
   <head>
     <title>Tufts Crew</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleAbout.css" />
     <meta charset="utf-8" />
     <script src="jquery-3.3.1.min.js"></script>
 
+
   </head>
+
   
   <body>
     <div class="topnav">
@@ -42,6 +45,8 @@
           and our ergometers with VR headset attachments.</p>
 
       <h3> Shoemaker Boathouse Location </h3>
+
+      <div id="map"></div>
       
       <ul>
         <li>0.4 miles from Wellington Orange Line with shuttle service to and from Rivers Edge</li>
@@ -49,7 +54,25 @@
         <li>3.5 miles from Cambridge</li>
       </ul>
 
+      <script>
+          function initMap() {
+            var myLatLng = {lat: 42.410480, lng: -71.073915};
 
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 15,
+              center: myLatLng
+            });
+
+            var marker = new google.maps.Marker({
+              position: myLatLng,
+              map: map,
+              title: 'Shoemaker Boathouse'
+            });
+          }
+      </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBimiq9LGsIZ6wemBF4vNba-X-QMbqfuc&callback=initMap"
+    type="text/javascript"></script>
 
 
   </body>
