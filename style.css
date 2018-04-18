@@ -85,8 +85,15 @@ body {
 
 /*-----------NAV BAR STYLING END---------------------*/
 
+
+.ourcontent {
+  background-color: white;
+  padding-top: 50px;
+
+}
+
 .WorkoutLog {
-  background-color: #ddd;
+  background-color: white;
   color: white;
 }
 

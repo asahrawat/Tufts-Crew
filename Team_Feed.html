@@ -3,29 +3,66 @@
 <html>
 
   <head>
-    <title>Tufts Crew Feed</title>
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="utf-8" />
-    <script src="jquery-3.3.1.min.js"></script>
+    <title>Tufts Crew</title>
+
+    <meta charset="utf-8">
+
+    <!-- BootStrap Stuff -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
   </head>
   
   <body>
-    <div class="topnav">
-      <!-- I feel like news should be the homepage -->
-      <a href="index.html">News</a>
-      <!-- Info Tab -->
-      <a href="Race_Schedule.html">Race Schedule</a>
-      <a href="Course.html">Course</a>
-      <a href="Roster.html">Roster</a>
-      <!-- Tools Tab-->
-      <a href="Team_Feed.html">Team Feed</a>
-      <a href="Practice_Schedule.html">Practice Schedule</a>
-      <!-- Tools Tab-->
-      <a href="Lactate.html">Lactate</a>
-      <a href="Randomizer.html">Randomizer</a>
-      <a href="AboutUs.html">About Us</a>
-    </div>
+    
+    <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="">Tufts Crew</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">News</a></li>
 
+          <!-- Info Tab -->
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Info
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="Race_Schedule.html">Race Schedule</a></li>
+              <li><a href="Course.html">Course</a></li>
+              <li><a href="AboutUs.html">About Us</a></li>
+            </ul>
+          </li>
+
+          <!-- Team Tab-->
+          <li class="dropdown active">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Team
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="Team_Feed.html">Team Feed</a></li>
+              <li><a href="Practice_Schedule.html">Practice Schedule</a></li>
+            </ul>
+          </li>
+
+          <!-- Tools Tab-->
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="Lactate.html">Lactate</a></li>
+              <li><a href="Randomizer.html">Randomizer</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+      </nav>
+    </div>
 
     <div class="news">
       <h1>Twitter</h1>
@@ -47,7 +84,7 @@
 
         info = "";
         function print(){
-            for (i = 0; i < localStorage.length; i++)
+            for (i = 0; i < 10; i++)
             {
                 console.log(i);
                 console.log(localStorage.key(i));
@@ -56,6 +93,7 @@
 
             $("#log").html(info);
         }
+
         window.onload = print;
 
         $(document).keypress(function(e) {
