@@ -5,7 +5,7 @@
 
 
 
-David Knopov, Chadd Yuan, Ryan #2:
+David Knopov, Chadd Yuan, Ryan , Amun #2:
 
 (1) This week I worked on setting up the google calendar API for Practice Schedules.
 I added all the practices, and races from the tufts team crew schedule. I also added a 

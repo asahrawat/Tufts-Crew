@@ -1,0 +1,20 @@
+Status Report 3:
+
+
+
+
+ (1) what was accomplished during the week,
+We got our navbar up and working and made the style better.
+
+
+
+ (2) challenges and issues team faced during the week
+ We faced issues with google map API, getting the spreadsheet to be visible by all, and some issue with our blog.
+
+
+
+
+
+
+ (3) your goals for the next week.
+We need to finsh the randomizer, lactate, course , and team feed ( blog ) by next week.
