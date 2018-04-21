@@ -4,12 +4,17 @@ Status Report 3:
 
 
  (1) what was accomplished during the week,
-We got our navbar up and working and made the style better.
+We got our navbar up and working and made the style better. We added a post
+route to the server for blog posts and are currently trying different ways of
+implementing a blog and announcements section through heroku and mongodb
 
 
 
  (2) challenges and issues team faced during the week
- We faced issues with google map API, getting the spreadsheet to be visible by all, and some issue with our blog.
+ We faced issues with google map API, getting the spreadsheet to be visible by all, and some issue with our blog. We faced issues with the blog implementation;
+ it might be too tricky with mongodb and creating our own interface for posting
+ so we might use an api such as google blogger api and use a thrid party blogging
+ interface
 
 
 
@@ -17,4 +22,6 @@ We got our navbar up and working and made the style better.
 
 
  (3) your goals for the next week.
-We need to finsh the randomizer, lactate, course , and team feed ( blog ) by next week.
+We need to finsh the randomizer, lactate, course , and team feed ( blog ) by next week. Specifically for the team feed, we need to find out how to implement a
+working blog (simply a place for people to post articles): will contain author name,
+date written, and content.
