@@ -25,3 +25,7 @@ implementing a blog and announcements section through heroku and mongodb
 We need to finsh the randomizer, lactate, course , and team feed ( blog ) by next week. Specifically for the team feed, we need to find out how to implement a
 working blog (simply a place for people to post articles): will contain author name,
 date written, and content.
+
+# Comments by Ming
+* "goal for next week is to figure out how to properly set up a true announcements section" => how is this going?  This is critical.
+* "working blog (simply a place for people to post articles): will contain author name," => red herring.  Why build this as there is WordPress, Drupal available?
