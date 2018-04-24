@@ -5,8 +5,6 @@
   <head>
     <title>Tufts Crew</title>
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="styleAbout.css" />
     <meta charset="utf-8" />
     <script src="jquery-3.3.1.min.js"></script>
 
@@ -18,6 +16,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--<link rel="stylesheet" href="style.css">-->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleAbout.css" />
+
 
   </head>
 
@@ -71,53 +73,54 @@
 
 
 
+      <div class="container ourcontent">
+        <div class="PAGEHEADER"></div>
+        <div class="info"> </div>
+        <h1 id="sectionTitle"> About Tufts Crew</h1>
 
-      <div class="PAGEHEADER"></div>
-      <div class="info"> </div>
-      <h1 id="sectionTitle"> About Tufts Crew</h1>
-
-      <h3 class = distance> The Shoemaker Boathouse </h3>
+        <h3 class = distance> The Shoemaker Boathouse </h3>
 
 
-      <img src="boathouse.jpg" alt="Tufts Shoemaker Boathouse" height="280" width="485">
+        <img src="boathouse.jpg" alt="Tufts Shoemaker Boathouse" height="280" width="485">
 
-      <p class = distance>  The William A. Shoemaker Boathouse donated by David Shoemaker, was 
-          erected in 2006 and held its first regatta in 2007. Our modern boathouse incoroporates 
-          classic features of boathouses around the country as well as emerging technologies 
-          in the sport of crew, such as our indoor boat simulators and our ergometers with VR 
-          headset attachments.</p>
+        <p class = distance>  The William A. Shoemaker Boathouse donated by David Shoemaker, was 
+            erected in 2006 and held its first regatta in 2007. Our modern boathouse incoroporates 
+            classic features of boathouses around the country as well as emerging technologies 
+            in the sport of crew, such as our indoor boat simulators and our ergometers with VR 
+            headset attachments.</p>
 
-      <h3 class = distance> Shoemaker Boathouse Location </h3>
+        <h3 class = distance> Shoemaker Boathouse Location </h3>
 
-      <div id="map"></div>
-      
-      <ul class = distance>
-        <li>0.4 miles from Wellington Orange Line with shuttle service to and from Rivers Edge</li>
-        <li>4.0 miles from Boston</li>
-        <li>3.5 miles from Cambridge</li>
-      </ul>
+        <div id="map"></div>
+        
+        <ul class = distance>
+          <li>0.4 miles from Wellington Orange Line with shuttle service to and from Rivers Edge</li>
+          <li>4.0 miles from Boston</li>
+          <li>3.5 miles from Cambridge</li>
+        </ul>
 
-      <div class="PAGEFOOTER"></div>
+        <div class="PAGEFOOTER"></div>
 
-      <script>
-          function initMap() {
-            var myLatLng = {lat: 42.410480, lng: -71.073915};
+        <script>
+            function initMap() {
+              var myLatLng = {lat: 42.410480, lng: -71.073915};
 
-            var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 15,
-              center: myLatLng
-            });
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: myLatLng
+              });
 
-            var marker = new google.maps.Marker({
-              position: myLatLng,
-              map: map,
-              title: 'Shoemaker Boathouse'
-            });
-          }
-      </script>
+              var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Shoemaker Boathouse'
+              });
+            }
+        </script>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBimiq9LGsIZ6wemBF4vNba-X-QMbqfuc&callback=initMap"
-    type="text/javascript"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBimiq9LGsIZ6wemBF4vNba-X-QMbqfuc&callback=initMap"
+      type="text/javascript"></script>
+    </div>
 
 
   </body>
