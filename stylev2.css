@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  background-color: white;
+  background-repeat: repeat;
+}
+
+
+
+/*-----------NAV BAR STYLING START---------------------*/
+
+/* navbar */
+.navbar-default {
+    background-color: #78450c;
+    border-color: #452804;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #452804;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: white;
+    background-color: #452804;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: white;
+    border-bottom-color: white;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: white;
+    border-bottom-color: white;
+}
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: white;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+          color: #333;
+    }
+}
+
+/*-----------NAV BAR STYLING END---------------------*/
+
+
+.ourcontent {
+  background-color: white;
+  padding-top: 50px;
+
+}
+
+.btn {
+  color: white ;
+  background-color: #5292cb;
+}
+
+
+
+.WorkoutLog {
+  background-color: white;
+  color: white;
+}
+
+.Practice_Log
+{
+  text-align: center;
+}
+
+
+.twitter_timeline {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+}
+
+.col-8-style {
+  background-color: #5292cb;
+  color: white;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20%
+}
+
+.team_button {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.team_title {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #5292cb;
+  padding-left: 20px;
+}
+
+.carousel-caption {
+  transform: translate(0%, 50%);
+  animation: fadeIn 3s;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
