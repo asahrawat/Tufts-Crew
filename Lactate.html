@@ -64,18 +64,45 @@
     </nav>
 
     <div class="container ourcontent">
-      <h1>
-        Lactate/Watt Conversion Tool
+      <h1>Lactate/Watt Conversion Tool </h1>
 
-      </h1>
-    </div>
+    <form>
+      <div class="form-group">
+        <label for="watts">Watts:</label>
+        <input type="text" class="form-control" id="watts">
+      </div>
 
-    <div id= "calcTemplate">
-      hello world
-        <div id= "calcBody">
+      <div class="form-group">
+        <label for="lactate">Lactate:</label>
+        <input type="text" class="form-control" id="lactate">
+      </div>
+    </form>
+    <br>
+    <button type="button" class="btn" id="button" >Calculate</button>
+    <br>
+    <h3> Calculated watts: <p class="pull-right" id="cwatts"></p> </h3>
 
-        </div>
-    </div>
+    <script>
+        $(document).ready(function(){
+            $(document).keydown(function(event) {
+                 if (event.which == 13 ) {
+                    var output = 0.0;
+                    watts = parseFloat($('#watts').val());
+                    lactate = parseFloat($('#lactate').val());
+                    output = (1.8*(watts**3.9)/lactate)**(1/3.9);
+                    $('#cwatts').html(output);
+                }
+                
+            });
+        });
+        $('#button').on('click', function(event) {
+                    var output = 0.0;
+                    watts = parseFloat($('#watts').val());
+                    lactate = parseFloat($('#lactate').val());
+                    output = (1.8*(watts**3.9)/lactate)**(1/3.9);
+                    $('#cwatts').html(output);
+        });
+    </script>
 
   </body>
 </html>

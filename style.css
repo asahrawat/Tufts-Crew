@@ -92,7 +92,19 @@ body {
 
 }
 
+.btn {
+  color: white ;
+  background-color: #5292cb;
+}
+
+
+
 .WorkoutLog {
   background-color: white;
   color: white;
+}
+
+.Practice_Log
+{
+  text-align: center;
 }
