@@ -108,3 +108,13 @@ body {
 {
   text-align: center;
 }
+#errorMsg
+{
+  color:red; 
+  display: none;
+}
+
+#displayBoats
+{
+    display: none;
+}

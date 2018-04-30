@@ -69,11 +69,19 @@
     <div class="ourcontent container" >
       <h1>Random Line-up Tool </h1>
       <h3>Select 16 rowers and click 'Randomize' to create two random 8's</h3>
-      <h4 style="color:red; visibility: hidden;">Please select 16 rowers!</h3>
+      <h4 id="errorMsg">Please select 16 rowers!</h3>
       <div class="row">
         <div class="col-sm-8" id="buttons"></div>
         <div class='col-sm-2'>
           <button type="button" class="btn" id="button" >Randomize</button>
+
+          <div id="displayBoats">
+            <h3>Boat 1 </h3>
+            <p id="displayBoat1"></p>
+            <h3>Boat 2 </h3>
+            <p id="displayBoat2"></p>
+          </div
+
         </div>
       </div>
     </div>

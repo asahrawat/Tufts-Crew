@@ -31,25 +31,45 @@ function getRoster(){
 			$('#buttons').html(buttons);
 
 			//becasue of async this needs to go after the roster displays else roster is empty
-			$('#button').on('click', function(event) {
-				toRandom = [];
-				for(name in roster) {
-					var id = '#checkbox' + name;
+			setBoxes();
 
-					if($(id).is(":checked")) {
-						console.log(name);
-						//only pushing array index in roster
-						toRandom.push(name);
-					}
-					
-				}
-				
-				console.log(toRandom);
-			});
 		}
 	}
-
 	request.send();
+
+}
+
+function setBoxes(){
+	$('#button').on('click', function(event) {
+		toRandom = [];
+		for(name in roster) {
+			var id = '#checkbox' + name;
+
+			if($(id).is(":checked")) {
+				//only pushing array index in roster
+				toRandom.push(name);
+			}	
+		}
+		if(toRandom.length != 16){
+			$("#errorMsg").show();
+		} else {
+			$("#errorMsg").hide();
+			randomize();
+		}
+	});
+}
+
+function randomize(){
+	$("#displayBoats").show();
+	toRandom.sort(function() { return 0.5 - Math.random() });
+	var boat1 = toRandom.slice(0,8);
+	var boat2 = toRandom.slice(8,16);
+	for(name in boat1) {
+		boat1[name] = roster[boat1[name]] + '<br>';
+		boat2[name] = roster[boat2[name]] + '<br>';
+	}
+	$('#displayBoat1').html(boat1);
+	$('#displayBoat2').html(boat2);
 
 }
 
