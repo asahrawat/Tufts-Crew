@@ -84,6 +84,4 @@ function get_data_pub()
 xhttp.open("GET", "https://vast-crag-95027.herokuapp.com/news_get_pub", true);
 xhttp.send();
 
-get_data();
-
 }
