@@ -118,3 +118,33 @@ body {
 {
     display: none;
 }
+
+#warmup
+{
+  color:red;
+  background-color: #78450c;
+  border-color: #452804;
+  padding:2px;
+}
+
+#m0
+{
+  color:yellow;
+  background-color: #78450c;
+  border-color: #452804;
+  padding:2px;
+}
+
+#m500
+{
+  color:#fc28fc;
+  background-color: #78450c;
+  border-color: #452804;
+  padding:2px;
+}
+
+.courseText {
+  color: black;
+  font-size: 15px; 
+  background-color: white;
+}
