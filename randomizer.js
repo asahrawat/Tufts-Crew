@@ -9,7 +9,7 @@ getRoster();
 function getRoster(){
 	var request = new XMLHttpRequest();
 
-	request.open("POST", "http://vast-crag-95027.herokuapp.com/roster.json", true);	
+	request.open("GET", "http://vast-crag-95027.herokuapp.com/roster.json", true);	
 
 	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
