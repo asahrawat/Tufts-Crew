@@ -86,8 +86,7 @@
     <br>
     <button type="button" class="btn" id="button" >Calculate</button>
     <br>
-    <h3> Calculated watts (corrected): <p class="pull-right" id="cwatts"></p> </h3>
-    <h3> Predicted 2K: <p class="pull-right" id="2ktime"> </p> </h3>
+    <h3> Calculated watts: <p class="pull-right" id="cwatts"></p> </h3>
 
     <script>
         $(document).ready(function(){
@@ -100,10 +99,6 @@
                     output = output.toFixed(3);
                     outputA = output + " Watts";
                     $('#cwatts').html(outputA);
-                    output = (output - 17.4) * 2.12;
-                    output = output.toFixed(3);
-                    outputB = output + " Seconds";
-                    $('#2ktime').html(output);
                 }
                 
             });
@@ -116,10 +111,6 @@
                     output = output.toFixed(3);
                     outputA = output + " Watts";
                     $('#cwatts').html(outputA);
-                    output = (output - 17.4)*2.12;
-                    output = output.toFixed(3);
-                    outputB = output + " Seconds";
-                    $('#2ktime').html(outputB);
         });
     </script>
 
