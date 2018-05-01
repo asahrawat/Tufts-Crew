@@ -145,8 +145,25 @@ body {
   padding-left: 20px;
 }
 
+.team_title_2 {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #5292cb;
+  background-color: white;
+  padding-left: 20px;
+}
+.team_title_3 {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #78450c;
+  padding-left: 20px;
+}
+
 .carousel-caption {
-  transform: translate(0%, 50%);
+  transform: translate(0%, -30%);
   animation: fadeIn 3s;
   text-align: center;
   font-size: 70px;
@@ -161,6 +178,7 @@ body {
     opacity: 1;
   }
 }
+
 
 
 
