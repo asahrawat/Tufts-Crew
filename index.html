@@ -13,11 +13,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="stylev2.css">
+    <script src="announcement.js"></script>
 
 
   </head>
   
-  <body>
+  <body onload="get_data_pub()">
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -82,14 +83,36 @@
 
     <!--<img class="img-responsive" src="cover_photo.jpg" alt="Chania">-->
 
-    <div class="team_title">
-      <h1>Tufts on Twitter</h1>
+    <div class = "container-fluid">
+        <div class = "row">
+            <div class = "col-sm-6">
+                <div class="team_title_2">
+                    <h1>Tufts on Twitter</h1>
+                
+
+
+                <a class="twitter-timeline" data-height="1000" data-width="500" data-theme="light" href="https://twitter.com/TuftsRowing?ref_src=twsrc%5Etfw">Tweets by TuftsRowing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            </div>
+            <div class = "col-sm-6">
+                <div class="team_title">
+                    <h1>Public News</h1>
+                    <hr>
+                    <div id = "content_pub">
+                    <h2>No New News</h2>
+                    </div>
+                </div>
+                <div class = "team_title_3">
+                    <h1>Team Announcements</h1>
+                    <hr>
+                    <div id = "content">
+                        <h2>No New Announcements</h2>
+                    </div>
+                </div>
+            </div>  
+        </div>
     </div>
 
-
-    <a class="twitter-timeline" data-height="1000" data-width="500" data-theme="light" href="https://twitter.com/TuftsRowing?ref_src=twsrc%5Etfw">Tweets by TuftsRowing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-  </div>
 
   </body>
 </html>
