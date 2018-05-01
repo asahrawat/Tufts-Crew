@@ -108,6 +108,19 @@ body {
 {
   text-align: center;
 }
+
+.responsiveCal {
+ 
+position: relative; padding-bottom: 56.25%; width:100%; height: 0; overflow: hidden;
+ 
+}
+ 
+.responsiveCal iframe {
+ 
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
+ 
+}
+
 #errorMsg
 {
   color:red; 
@@ -117,4 +130,50 @@ body {
 #displayBoats
 {
     display: none;
+}
+
+#warmup
+{
+  color:red;
+  background-color: #78450c;
+  border-color: #452804;
+  padding:2px;
+}
+
+#m0
+{
+  color:yellow;
+  background-color: #78450c;
+  border-color: #452804;
+  padding:2px;
+}
+
+#m500
+{
+  color:#fc28fc;
+  background-color: #78450c;
+  border-color: #452804;
+  padding:2px;
+}
+
+#m1000
+{
+  color:#29fd2f;
+  background-color: #78450c;
+  border-color: #452804;
+  padding:2px;
+}
+
+#m1500
+{
+  color:#ef672f;
+  background-color: #78450c;
+  border-color: #452804;
+  padding:2px;
+}
+
+.courseText {
+  color: black;
+  font-size: 15px; 
+  background-color: white;
 }
