@@ -21,8 +21,6 @@ function get_data()
         if (this.readyState == 4 && this.status == 200) {
                 var result = xhttp.responseText;
                 var obj = JSON.parse(result)
-                console.log("obj length = " + obj.length)
-
                 var info = "";
                 var cap = 0;
 
@@ -39,8 +37,8 @@ function get_data()
 
 
                     var content = obj[i].content;
-                    info += "<p>" + content + "</p>" + "<p> Written by: " + user  + " - " + date + "</p>" + "<hr>\n";
-                    document.getElementById("content").innerHTML = info;
+                    info += "<div class='container-fluid'><p>" + content + "</p>" + "<p> Written by: " + user  + " - " + date + "</p></div>" + "<hr>\n";
+                    $('#content').html(info);
 
                 }   
         }
