@@ -3,6 +3,7 @@
   height: 300px;
   margin-left: 20px;
   margin-right: 200px;
+
 }
 
 
@@ -18,4 +19,14 @@ html {
     padding-bottom: 50px;
     padding-top: 50px;
 
+}
+
+
+h4 {
+	margin-top: 5px;
+}
+
+p {
+	margin-top: 15px;
+	margin-bottom: 25px;
 }

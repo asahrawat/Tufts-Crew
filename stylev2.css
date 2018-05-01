@@ -169,6 +169,28 @@ body {
   font-weight: bolder;
 }
 
+
+
+
+#news_content {
+  background-color: #696868;
+  border: 1px #696868 solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#announce_content {
+  border: 1px #78450c solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+}
+
+
 @keyframes fadeIn {
   from {
     opacity: 0;
